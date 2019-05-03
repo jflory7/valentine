@@ -1,26 +1,37 @@
-Valentine
+valentine
 =========
 
-Will you be mine?
+Draw swirls of hearts and print an expression of affection
 
 
 ## About
 
-_Original project: [github.com/SkylerJaneClark/valentine](https://github.com/SkylerJaneClark/valentine)_
+Will you be mine?
 
-Simple Python script to make a pretty display and say some nice words. Uses
-[Turtle graphics](https://docs.python.org/3/library/turtle.html) to draw shapes.
+Simple Python script to make a pretty display of hearts and say some affectionate words.
+Uses [Turtle graphics](https://docs.python.org/3/library/turtle.html) to draw shapes.
+
+_Original project_: [github.com/SkylerJaneClark/valentine](https://github.com/SkylerJaneClark/valentine)
 
 
 ## Installation
 
-### Fedora
+```bash
+pip install valentine
+```
+
+### Pre-requisites
+
+Some Linux distributions do not include the `tkinter` library by default in Python.
+Even though it is part of the standard library, you may have to install it for `valentine` to work:
+
+#### Fedora
 
 ```bash
 sudo dnf install python3-tkinter
 ```
 
-### Debian / Ubuntu / Mint / etc.
+#### Debian / Ubuntu
 
 ```bash
 sudo apt-get update
@@ -30,18 +41,14 @@ sudo apt-get install -y python3-tkinter
 
 ## Usage
 
-Happily cross-compatible between Python 2.7 and Python 3.6.
-
 ```bash
-./valentine.py
+valentine
 ```
-
-Execute the script like you would any other Python file.
 
 
 ## Credit
 
-_Original project: [github.com/SkylerJaneClark/valentine](https://github.com/SkylerJaneClark/valentine)_
+_Original project_: [github.com/SkylerJaneClark/valentine](https://github.com/SkylerJaneClark/valentine)
 
-This version adds Python 3 support, comments, and a click-on-exit.
+This version adds Python 3 support, packaging, comments, and a click-on-exit.
 
